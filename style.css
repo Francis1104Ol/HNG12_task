@@ -1,0 +1,48 @@
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+
+}
+
+.profile-card {
+    background-color: #b2b5ef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    border: #000;
+    border-style: outset;
+    
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+.profile-card h1, .profile-card h2, .profile-card p {
+    margin: 10px 0;
+    font-weight: bolder;
+    font-family: "fantasy", sans-serif;
+   
+
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073b1; /* LinkedIn color */
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
